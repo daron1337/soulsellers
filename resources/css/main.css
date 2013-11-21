@@ -350,7 +350,9 @@ html {
       right: 0;
     }
     
-    .follow-us {
+    #follow-us {
       padding-top: 10px;
-      
+      padding-right: 30px;
+      float :right;
+      text-align: right;
     }
