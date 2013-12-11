@@ -356,3 +356,19 @@ html {
       float :right;
       text-align: right;
     }
+    
+    #follow-us img {
+      vertical-align: middle;
+      margin-bottom: 3px;
+      margin-right; 4px;
+    }
+    
+    #follow-us img.scale:hover {
+      -moz-transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -webkit-transition: all 0.2s ease-in;
+      -moz-transition: all 0.2s ease-in;
+      -ms-zoom: 1.2;
+      transition: all 0.2s ease;
+    }
+    
