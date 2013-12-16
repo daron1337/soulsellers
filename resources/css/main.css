@@ -268,7 +268,7 @@ header {
   margin-left: -1095px;
 }
 .main section.page2 .page_container {
-  margin-top: 240px;
+  margin-top: 130px;
   overflow: hidden;
 }
 .main section.page2 h1 {
@@ -398,4 +398,24 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
 
 .onepage-pagination li a:before {
     background: white;
+}
+
+#test{
+  color:#fff;
+  font-size: 40px;
+}
+
+#test-dav {
+  /*background: #E2E4E7;*/
+  color: white;
+  font-size: 40px;
+  display:none;
+}
+
+#dav {
+  height:100%;
+  width:10.6%;
+  top:0;
+  left:36%;
+  position:fixed;
 }
