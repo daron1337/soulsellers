@@ -31,7 +31,8 @@
         $("#test").html(event.pageX);
         var ratio = event.pageX * 100 / $(".viewing-page-2").width();
         if (ratio >= 11.5 && ratio < 21.2) {
-          $("#test-dav").html("LEO");
+          alert("AAAAA");
+		  $("#test-dav").html("LEO");
           $("#test-dav").show('blind',50);
         }
         else if (ratio >= 36 && ratio < 46.6) {
