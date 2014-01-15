@@ -27,42 +27,42 @@
         responsiveFallback: 600
       });
       
-      $( ".wrapper" ).mousemove(function( event ) {
-        $("#test").html(event.pageX);
-        var ratio = event.pageX * 100 / $(".viewing-page-2").width();
-        if (ratio >= 11.5 && ratio < 21.2) {
-          $("#test-dav").html("LEO");
-          $("#test-dav").show('blind',50);
-        }
-        else if (ratio >= 36 && ratio < 46.6) {
-          $("#test-dav").html("DAV");
-          $("#test-dav").show('blind',50);
-        }
-        else if (ratio >= 65.8 && ratio < 74) {
-          $("#test-dav").html("DEDE");
-          $("#test-dav").show('blind',50);
-        }
-        else if (ratio >= 82.2 && ratio < 91.9) {
-          $("#test-dav").html("SIMO");
-          $("#test-dav").show('blind',50);
-        }
-        else{
-          $("#test-dav").hide('blind',50);
-        }
-      });   
+      //$( ".wrapper" ).mousemove(function( event ) {
+      //  $("#test").html(event.pageX);
+      //  var ratio = event.pageX * 100 / $(".viewing-page-2").width();
+      //  if (ratio >= 11.5 && ratio < 21.2) {
+      //    $("#test-dav").html("LEO");
+      //    $("#test-dav").show('blind',50);
+      //  }
+      //  else if (ratio >= 36 && ratio < 46.6) {
+      //    $("#test-dav").html("DAV");
+      //    $("#test-dav").show('blind',50);
+      //  }
+      //  else if (ratio >= 65.8 && ratio < 74) {
+      //    $("#test-dav").html("DEDE");
+      //    $("#test-dav").show('blind',50);
+      //  }
+      //  else if (ratio >= 82.2 && ratio < 91.9) {
+      //    $("#test-dav").html("SIMO");
+      //    $("#test-dav").show('blind',50);
+      //  }
+      //  else{
+      //    $("#test-dav").hide('blind',50);
+      //  }
+      //});   
         
-      $( "#dav" )
-        .mouseenter(function(){
-          var imageUrl = 'resources/img/test_dav.jpg';
-          $("body").css('background-image','url(' + imageUrl + ')');
-          $("#test-dav").html("DAV");
-          $("#test-dav").show('blind',50);
-        })
-        .mouseleave(function() {
-          var imageUrl = 'resources/img/home_background.jpg';
-          $("body").css('background-image','url(' + imageUrl + ')');
-          $("#test-dav").hide('blind',50);
-      });  
+      //$( "#dav" )
+      //  .mouseenter(function(){
+      //    var imageUrl = 'resources/img/test_dav.jpg';
+      //    $("body").css('background-image','url(' + imageUrl + ')');
+      //    $("#test-dav").html("DAV");
+      //    $("#test-dav").show('blind',50);
+      //  })
+      //  .mouseleave(function() {
+      //    var imageUrl = 'resources/img/home_background.jpg';
+      //    $("body").css('background-image','url(' + imageUrl + ')');
+      //    $("#test-dav").hide('blind',50);
+      //});  
 		});
 	</script>
 	
@@ -96,8 +96,8 @@
 	    
 	    <section class="page2">
 	      <div class="page_container">
-            <div id="test"></div>       
-            <div id="test-dav"></div> 
+            <!--<div id="test"></div>   -->     
+            <!--<div id="test-dav"></div>  -->
             <h1>The SoulSellerS</h1>
             <h2>Work in progress...</h2>
 	      </div>
@@ -106,6 +106,6 @@
     </div> <!-- end div .main -->
   </div> <!-- end div .wrapper -->
   
-<div id="dav"></div>
+<!--<div id="dav"></div> -->
 </body>
 </html>
