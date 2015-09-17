@@ -265,12 +265,12 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    /* background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
     background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain; */
 }
 
 #map {
@@ -372,6 +372,47 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
-#contact {
+ #contact {
   padding-top: 100px !important;
 }
+/*
+#about {
+  padding-top: 150px !important;
+}
+*/
+#download {
+  padding-top: 150px !important;
+} 
+
+#soulsellers-title {
+  color: white;
+  font-size: 25px;
+  /* margin-bottom: 3px; */
+  /* padding-top: 10px; */
+  /* letter-spacing: -3px; */
+  /* float: left; */
+  /* text-align: left; */
+  /* padding-left: 30px; */
+  font-family: 'Rock Salt', cursive;
+}
+
+#description {
+	margin-top: 2em;
+	font-size: 20px;
+	font-family: 'Special Elite', cursive;
+}
+
+.intro-text {
+	font-family: 'La belle Aurore', cursive;
+	font-size: 35px !important;
+}
+
+.intro-text-before {
+	font-family: 'La belle Aurore', cursive;
+	font-size: 50px !important;
+}
+
+#music-stream {
+	margin-top: 2em;
+}
+
