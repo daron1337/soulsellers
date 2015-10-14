@@ -147,17 +147,20 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/coversoul_high.jpg) no-repeat bottom center scroll;
+    /*background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;*/
     background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
+    background-position-y: 75px;
 }
 
 .intro .intro-body {
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: bottom;
+    padding-bottom: 20px;
 }
 
 .intro .intro-body .brand-heading {
@@ -382,18 +385,23 @@ body {
 */
 #download {
   padding-top: 150px !important;
-} 
+}
 
 #soulsellers-title {
-  color: white;
-  font-size: 25px;
+  /*color: white;
+  font-size: 25px;*/
   /* margin-bottom: 3px; */
   /* padding-top: 10px; */
   /* letter-spacing: -3px; */
   /* float: left; */
   /* text-align: left; */
   /* padding-left: 30px; */
-  font-family: 'Rock Salt', cursive;
+  /*font-family: 'Rock Salt', cursive;*/
+  padding: 0 !important;
+}
+
+#soul-title {
+  height: 50px !important;
 }
 
 #description {
@@ -408,11 +416,11 @@ body {
 }
 
 .intro-text-before {
-	font-family: 'La belle Aurore', cursive;
-	font-size: 50px !important;
+	font-family: 'Special Elite', cursive;
+	font-size: 20px !important;
+  margin-bottom: 0px !important;
 }
 
 #music-stream {
 	margin-top: 2em;
 }
-
