@@ -424,3 +424,23 @@ body {
 #music-stream {
 	margin-top: 5em;
 }
+
+.img-store {
+  width: 102px;
+  height: 31px;
+}
+
+.music-store ul {
+  padding: 30px 0 0 30px;
+  margin: 0 0;
+  background-color: #FFF;
+}
+
+.music-store ul li {
+  float: none;
+  text-align: center;
+  display: inline-block;
+  margin: 0 25px 27px 0;
+  width: 100px;
+  height: 53px;
+}
